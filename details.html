@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Sign Up - BiteChat</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .header {
+            display: flex;
+            align-items: center;
+            padding: 20px;
+            background-color: #f8f9e8;
+        }
+        .header img {
+            height: 50px;
+            margin-right: 20px;
+        } 
+        h1 {
+            font-size: 24px;
+            margin: 20px 0;
+            text-align: center;
+        }
+        .container {
+            display: flex;
+            justify-content: space-between;
+            padding: 20px;
+            align-items: center;
+        }
+        .column {
+            flex: 1;
+            text-align: center;
+        }
+        .bullet-points {
+            list-style-type: none;
+            padding: 0;
+            font-size: 18px;
+            line-height: 1.6;
+            display: inline-block;
+            text-align: left;
+        }
+        .bullet-points li:before {
+            content: "•";
+            color: #b8c641;
+            display: inline-block;
+            width: 1em;
+            margin-left: -1em;
+        }
+        img {
+            max-width: 50%;
+            height: auto;
+            display: block;
+            margin: 20px auto;
+        }
+        .sign-up-button {
+            display: block;
+            width: 200px;
+            margin: 20px auto;
+            padding: 10px;
+            font-size: 18px;
+            color: #fff;
+            background-color: #B8C642;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+
+<div class="header">
+    <a href="index.html"> 
+        <img src="bitechat.png" alt="BiteChat Logo">
+    </a>
+    <h1>BiteChat</h1>
+</div>
+    
+
+<h1>Get Personalized Restaurant & Meal Recommendations - Fast & Easy!</h1>
+
+<!-- "Problem" section -->
+<div class="container">
+    <div class="column">
+        <h2>Problem</h2>
+        <ul class="bullet-points">
+            <li>Overwhelmed by countless options</li>
+            <li>Inefficient searching and filtering</li>
+            <li>Missing signature dishes</li>
+            <li>Unsatisfying meals due to poor choices</li>
+        </ul>
+    </div>
+    <div class="column">
+        <img src="problem.webp" alt="Problem Image"> 
+    </div>
+</div>
+
+<!-- "Solution" section -->
+<div class="container">
+    <div class="column">
+        <img src="solution.webp" alt="Solution Image"> <!-- Image now comes first in the HTML -->
+    </div>
+    <div class="column">
+        <h2>Solution</h2>
+        <ul class="bullet-points">
+            <li>Save time pre-meal</li>
+            <li>Discover new and exciting places to eat</li>
+            <li>Order the perfect dish every time</li>
+            <li>Enjoy a personalized dining experience</li>
+        </ul>
+    </div>
+</div>
+
+
+<button class="sign-up-button" onclick="window.location.href='signup-form.html';">Sign Up</button> 
+
+</body>
+</html>

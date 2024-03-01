@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>BiteChat Landing Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        .header {
+            display: flex;
+            align-items: center;
+            padding: 20px;
+            background-color: #f8f9e8;
+        }
+        .header img {
+            height: 50px;
+            margin-right: 20px;
+        } 
+        .theme-image-container {
+            position: relative;
+            text-align: center;
+            padding: 20px; ;
+        } 
+        .theme-image-container video {
+            max-width: 100%;
+            height: auto;
+        }
+        .headline-container {
+            position: absolute;
+            top: 0;
+            max-width: 90%;
+            background-color: rgba(31, 30, 30, 0.5); /* Transparent grey */
+            padding: 10px 0; /* Provides padding around the text for better visibility */
+        }
+        .headline {
+            display: inline-block;
+            position: absolute;
+            width: 90%;
+            top: 10%;
+            left: 20 px;
+            right: 30;
+            padding: 20px 20px;
+            font-size: 2em;
+            color: #fff;
+            background-color:rgba(31, 30, 30, 0.5); ;
+            text-align: center;
+            border-radius: 10px;
+        }
+        .see-more-button {
+            display: block;
+            width: 200px;
+            margin: 0 auto;
+            padding: 10px;
+            font-size: 18px;
+            color: #fff;
+            background-color: #B8C642;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .see-more-button:hover {
+            background-color: #9aa32c;
+        }
+    </style>
+</head>
+<body>
+
+<div class="header">
+    <a href="index.html"> 
+        <img src="bitechat.png" alt="BiteChat Logo">
+    </a>
+    <h1>BiteChat</h1>
+</div>
+
+<div class="theme-image-container">
+    <div class="headline"><h2>Take the Bite Out of Choosing What to Eat</h2></div>
+    <video autoplay loop>
+        <source src="party.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+</div>
+
+<button class="see-more-button" onclick="window.location.href='details.html';">See Details</button> 
+
+</body>
+</html>
