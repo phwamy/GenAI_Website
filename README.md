@@ -4,6 +4,6 @@ This website is built with the assistances of different kinds of GenAI tools. Te
 
 - Text Content: Gemini AI
 - Image: ChatGPT DALL-E
-- Vedio: runway.ml
+- Video: runway.ml
 - Music: Suno
-- html: ChatGPT 4.0
+- HTML: ChatGPT 4.0
